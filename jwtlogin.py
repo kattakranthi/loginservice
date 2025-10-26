@@ -1,3 +1,4 @@
+#For prototypes we can use werkzeug.security for production we should use bcrypt or argon2
 from flask import Flask, request, jsonify
 import jwt
 import datetime
